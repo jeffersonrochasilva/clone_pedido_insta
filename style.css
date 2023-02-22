@@ -1,0 +1,57 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+   background-image: url('image.jpg');
+   background-repeat: no-repeat, repeat;
+   background-size: 100% 100%;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.content {
+  width: 90%;
+  height: 500px;
+  border-radius: 5px;
+  display: flex;
+}
+
+.sim {
+  width: 140px;
+  height: 35px;
+  background: #B8860B;
+  color: white;
+  font-family: sans-serif;
+  border-radius: 4px;
+  border-style:none;
+  position: fixed;
+  top: 60%;
+  left: 63%;
+}
+
+.nao {
+  width: 140px;
+  height: 35px;
+  background: #B8860B;
+  color: white;
+  font-family: sans-serif;
+  border-radius: 4px;
+  border-style:none;
+  position: fixed;
+  top: 60%;
+  left: 33%;
+}
+
+h1 {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
