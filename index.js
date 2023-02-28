@@ -1,15 +1,26 @@
-// window.document.body.innerHTML += "teste";
-const conteudo = window.document.querySelector(".content");
-// conteudo.innerHTML += "teste";
-// conteudo.style.background = "red";
-let top = "60%";
+let num = 0;
 
 function sim() {
   const btnSim = window.document.querySelector(".sim");
-  let num = 0;
+  console.log(num, "num");
   if (num === 0) {
-    btnSim.style.top = "100%";
-    btnSim.style.background = "red";
+    btnSim.style.left = "50%";
+    num = 1;
+  } else if (num === 1) {
+    btnSim.style.top = "50%";
+    num = 2;
+  } else if (num === 2) {
+    btnSim.style.top = "70%";
+    btnSim.style.left = "55%";
+    num = 3;
+  } else if (num === 3) {
+    btnSim.style.top = "80%";
+    btnSim.style.left = "55%";
+    num = 4;
+  } else if (num === 4) {
+    btnSim.style.top = "60%";
+    btnSim.style.left = "63%";
+    num = 0;
   }
 }
 
