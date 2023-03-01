@@ -23,7 +23,9 @@ function sim() {
     num = 0;
   }
 }
-
+const title = window.document.querySelector(".text");
+const image = window.document.querySelector(".emoticon");
 function nao() {
-  alert("funcionou o não");
+  title.innerHTML = "Que Pena.. : (";
+  image.innerHTML = "&#128531;";
 }
